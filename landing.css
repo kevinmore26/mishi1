@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+ border-radius: 7px;
+  border: 1px solid black;
+  background-color: #23424b;
+  
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  color: black;
+  flex-grow: 5;
+}
+
+nav >a {
+  text-decoration: none;
+  color: black;
+  flex-grow: 0.2;
+  margin: 10px;
+}
+.mishi
+{
+    margin: auto;
+
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 207px;
+    margin-right: 2px;
+    width: 70vw;
+    margin-top: 20px;
+}
+    
+    
+figcaption
+{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+
+}
+.contenedor-medio
+{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: center;
+   
+}
+.contenido
+{
+    max-width: 300px;
+    max-height: 300px;
+    border: 2px solid rgba(136, 129, 129, 0.055);
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    overflow:auto;
+    border-radius: 10px;
+}
+.imagen-contenido
+{
+    max-width: 250px;
+
+    max-height: 250px;
+}
+
+.social
+{
+   
+    background-color:#255a68;
+    display: flex ;
+    padding: 40px;
+    padding-bottom: 90px;
+    padding-top: 21px;
+    flex-grow: 8;
+    line-height: 23px;
+    }
+.social-link{
+    
+    display: inline;
+    padding: 30px;
+
+    background-color: transparent;
+
+}
+.social-link.facebook
+{
+    display: block;
+    background-image: url(facebooku.png);
+    
+    background-size: 50px 50px;
+    position: absolute;
+    right: 112px;
+    background-repeat:no-repeat;
+    
+   
+}
+.social-link.instagram
+{
+    background-image: url(./instagram.png);
+    position: absolute;
+    background-size: 50px 50px;
+    background-repeat:no-repeat;
+    left: 1091px;
+   
+}
+.social-link.github
+{
+    background-image: url(./github.png);
+    position: absolute;
+    background-size: 50px 50px;
+    background-repeat:no-repeat;
+    left: 1256px;
+    flex-grow: 4;
+    
+}
+
+.contacto
+{
+  background-color:#255a68 ;
+  padding-right: 40px;
+  padding-top: 7px;
+  text-align: right;
+  font-size: 18px;
+  flex-grow: 3;
+}
+.about
+{
+  text-align: left;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-grow: 7;
+  color: black;
+}
+footer{
+  flex-grow: 1;
+}
+
+.opciones
+{
+  position: absolute;
+  display: grid;
+  padding-left: 50px;
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  line-height: 23px;
+  margin: 2px solid red;
+
+}
+
+
+
+
+.container{
+  margin: auto;
+  background-color: white;
+  width: 800px;
+  padding-top: 70px;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider{
+  position: relative;
+  width: 800px;
+  height: 300px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:transparent;
+}
+
+ul.slider li img{
+  width: 100%;
+  height: 130%;
+  
+  border-radius: 45px;
+
+}
+
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu{
+  text-align: center;
+  padding-top: 122px;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+.slide
+{
+  width: 70%;
+}
